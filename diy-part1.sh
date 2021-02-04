@@ -17,4 +17,5 @@
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git liuran001_packages https://github.com/liuran001/openwrt-packages' feeds.conf.default
 #git clone https://github.com/rufengsuixing/luci-app-syncdial.git package/luci-app-syncdia
-git clone https://github.com/chenhaowen01/gdut-drcom-for-openwrt.git package/gdut-drcom-for-openwrt
+git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/MentoHUST-OpenWrt-ipk
+git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
